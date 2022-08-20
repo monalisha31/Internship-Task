@@ -1,0 +1,31 @@
+{
+  "name": "internship-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "devStart": "nodemon serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monalisha31/Internship-Task"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "translate": "^1.2.3",
+    "translate-google": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "fast-csv": "^4.3.6",
+    "fast-two-sms": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
